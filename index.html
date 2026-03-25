@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bup Download</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: url('Bup.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Light glass box to match the soft background */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 42px;
+    color: #333;
+}
+
+p {
+    color: #444;
+    margin: 15px 0 25px;
+}
+
+/* Button styled like classic installers */
+.download-btn {
+    display: inline-block;
+    background: linear-gradient(#4CAF50, #2e7d32);
+    color: white;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 0 #1b5e20;
+    transition: 0.2s;
+}
+
+.download-btn:hover {
+    background: linear-gradient(#66bb6a, #388e3c);
+}
+
+.download-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #1b5e20;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Bup</h1>
+    <p>The Toad Face Program</p>
+
+    <a href="Bup Setup.exe" download class="download-btn">
+        Download Bup Setup
+    </a>
+
+    <div class="footer">
+        Public Domain • Credit Nintendo for Toad Face Texture
+    </div>
+</div>
+
+</body>
+</html>
